@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wno-error=deprecated-declarations -Wno-deprecated-declarations -Wno-deprecated -O3 -DNDEBUG -O3 -shared -Wl,-soname,libgmock_main.so -o ../lib/libgmock_main.so CMakeFiles/gmock_main.dir/src/gmock_main.cc.o  -Wl,-rpath,/home/zzy/rangenet_pp/build/rangenet_pp/gtest/lib ../lib/libgmock.so ../lib/libgtest.so -lpthread 

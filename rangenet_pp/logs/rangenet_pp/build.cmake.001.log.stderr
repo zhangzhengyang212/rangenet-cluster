@@ -1,0 +1,52 @@
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/cmake/Color.cmake:24 (message):
+  [34m[WARNING] NvInferVersion.h not found in [m
+[36mCall Stack (most recent call first):[0m
+  cmake/TensorRT.cmake:74 (WARNING_LOG)
+  cmake/ThirdParty.cmake:32 (include)
+  CMakeLists.txt:18 (include)
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:49 (add_executable):
+  Cannot generate a safe runtime search path for target demo because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:65 (add_executable):
+  Cannot generate a safe runtime search path for target ros1_demo because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:37 (add_library):
+  Cannot generate a safe runtime search path for target rangenet_lib because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+

@@ -1,0 +1,27 @@
+[36m--[0m [32m[INFO] CMAKE_BUILD_TYPE：[m
+[36m--[0m [32m[INFO] Compute capability: 61[m
+[36m--[0m [32m[INFO] ROS1 is available![m
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/zzy/rangenet_pp/devel/.private/rangenet_pp
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/zzy/rangenet_pp/devel;/opt/ros/noetic;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT
+[36m--[0m This workspace overlays: /home/zzy/rangenet_pp/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/zzy/rangenet_pp/build/rangenet_pp/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Caffe2: CUDA detected: 11.6
+[36m--[0m Caffe2: CUDA nvcc is: /usr/local/cuda-11.6/bin/nvcc
+[36m--[0m Caffe2: CUDA toolkit directory: /usr/local/cuda-11.6
+[36m--[0m Caffe2: Header version is: 11.6
+[36m--[0m Found cuDNN: v8.4.1  (include: /usr/local/cuda-11.6/include, library: /usr/local/cuda-11.6/lib64/libcudnn.so)
+[36m--[0m /usr/local/cuda-11.6/lib64/libnvrtc.so shorthash is 280a23f6

@@ -1,0 +1,10 @@
+make[2]: *** 没有规则可制作目标“/usr/local/lib/libpcl_common.so”，由“/home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libpointcloud_io.so” 需求。 停止。
+make[2]: *** 正在等待未完成的任务....
+make[2]: *** 没有规则可制作目标“/usr/local/lib/libpcl_common.so”，由“/home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libpostprocess.so” 需求。 停止。
+make[2]: *** 正在等待未完成的任务....
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+make[1]: *** [CMakeFiles/Makefile2:331：CMakeFiles/pointcloud_io.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+make[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/postprocess.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

@@ -1,0 +1,18 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::MarkerArray BoundingBoxGenerator::generateOrientedBoundingBoxes(const Ptr&, const std::vector<pcl::PointIndices>&, const string&, const string&, int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:510:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kobject_type[m[K’?
+  510 |     if ([01;31m[Kobject_name[m[K == "vehicle" && cluster_cloud->points.size() >= 30) {
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kobject_type[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::MarkerArray BoundingBoxGenerator::generateBoundingBoxes(const Ptr&, const std::vector<pcl::PointIndices>&, const string&, const string&, int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:731:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kobject_name[m[K’ was not declared in this scope; did you mean ‘[01m[Kobject_type[m[K’?
+  731 |     if ([01;31m[Kobject_name[m[K == "vehicle" && cluster_cloud->points.size() >= 30) {
+      |         [01;31m[K^~~~~~~~~~~[m[K
+      |         [32m[Kobject_type[m[K
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

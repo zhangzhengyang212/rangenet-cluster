@@ -1,0 +1,71 @@
+CMake Warning (dev):
+  The library that is being linked to, yaml-cpp, is marked as being
+  deprecated by the owner.  The message provided by the developer is:
+
+  The target yaml-cpp is deprecated and will be removed in version 0.10.0.
+  Use the yaml-cpp::yaml-cpp target instead.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:118 (add_library):
+  Cannot find source file:
+
+    src/postprocess.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:109 (add_library):
+  Cannot find source file:
+
+    src/project_ops.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:101 (add_library):
+  Cannot find source file:
+
+    src/pointcloud_io.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:126 (add_library):
+  Cannot find source file:
+
+    src/rangenet_lib.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+CMake Warning (dev) at CMakeLists.txt:127 (target_link_libraries):
+  The library that is being linked to, yaml-cpp, is marked as being
+  deprecated by the owner.  The message provided by the developer is:
+
+  The target yaml-cpp is deprecated and will be removed in version 0.10.0.
+  Use the yaml-cpp::yaml-cpp target instead.
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:118 (add_library):
+  No SOURCES given to target: postprocess
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:109 (add_library):
+  No SOURCES given to target: project_ops
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:101 (add_library):
+  No SOURCES given to target: pointcloud_io
+
+
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:126 (add_library):
+  No SOURCES given to target: rangenet_lib
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

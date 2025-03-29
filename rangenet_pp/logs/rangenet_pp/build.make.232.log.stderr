@@ -1,0 +1,27 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In member function ‘[01m[Kvoid BoundingBoxGenerator::publishBoundingBoxes(const Ptr&, const int*, const string&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:227:22:[m[K [01;31m[Kerror: [m[K‘[01m[KextractClusters[m[K’ was not declared in this scope
+  227 |   vehicle_clusters = [01;31m[KextractClusters[m[K(cloud, vehicle_indices, 0.5, 100, 1000000);
+      |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:233:25:[m[K [01;31m[Kerror: [m[K‘[01m[KextractClusters[m[K’ was not declared in this scope
+  233 |   pedestrian_clusters = [01;31m[KextractClusters[m[K(cloud, pedestrian_indices, 0.3, 30, 50000);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:242:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBoundingBoxGenerator::isLidarTurning(const Ptr&)[m[K’
+  242 |   bool is_turning = isLidarTurning(cloud[01;31m[K)[m[K;
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:97:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool BoundingBoxGenerator::isLidarTurning(const Ptr&, const std::vector<int>&)[m[K’
+   97 |   bool [01;36m[KisLidarTurning[m[K(const pcl::PointCloud<pcl::PointXYZRGB>::Ptr& cloud,
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:97:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:296:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpedestrian_boxes[m[K’ was not declared in this scope; did you mean ‘[01m[Kpedestrian_labels[m[K’?
+  296 |   [01;31m[Kpedestrian_boxes[m[K.markers.insert(pedestrian_boxes.markers.end(), ped_markers.markers.begin(), ped_markers.markers.end());
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |   [32m[Kpedestrian_labels[m[K
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

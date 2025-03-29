@@ -1,0 +1,16 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+Assembler messages:
+致命错误： can't create CMakeFiles/demo.dir/src/demo.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/demo.dir/build.make:82：CMakeFiles/demo.dir/src/demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：CMakeFiles/demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+Assembler messages:
+致命错误： can't create CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+Assembler messages:
+致命错误： can't create CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:82：CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

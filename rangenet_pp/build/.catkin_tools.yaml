@@ -1,0 +1,6 @@
+devel_space: /home/zzy/rangenet_pp/devel
+install: false
+install_space: /home/zzy/rangenet_pp/install
+profile: default
+source_space: /home/zzy/rangenet_pp/src
+workspace: /home/zzy/rangenet_pp

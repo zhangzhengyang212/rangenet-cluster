@@ -1,0 +1,19 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+/usr/bin/ld: /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libproject_ops.so: undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/demo.dir/build.make:255：/home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/demo] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:255：CMakeFiles/demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_segmentation.so.1.14, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_segmentation.so.1.10
+/usr/bin/ld: warning: libpcl_common.so.1.14, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_common.so.1.10
+/usr/bin/ld: warning: libpcl_search.so.1.14, needed by /usr/local/lib/libpcl_segmentation.so, may conflict with libpcl_search.so.1.10
+/usr/bin/ld: /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libproject_ops.so: undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:434：/home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/ros1_demo] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:447：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

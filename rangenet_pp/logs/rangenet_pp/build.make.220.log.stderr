@@ -1,0 +1,20 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In member function ‘[01m[Kvoid BoundingBoxGenerator::publishBoundingBoxes(const Ptr&, const int*, const string&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:200:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_completion_pub[m[K’ was not declared in this scope
+  200 |         if ([01;31m[Kcloud_completion_pub[m[K.getNumSubscribers() > 0) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:270:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBoundingBoxGenerator::isLidarTurning(const Ptr&)[m[K’
+  270 |         bool is_turning = isLidarTurning(cloud[01;31m[K)[m[K;
+      |                                               [01;31m[K^[m[K
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:97:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool BoundingBoxGenerator::isLidarTurning(const Ptr&, const std::vector<int>&)[m[K’
+   97 |   bool [01;36m[KisLidarTurning[m[K(const pcl::PointCloud<pcl::PointXYZRGB>::Ptr& cloud,
+      |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:97:8:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

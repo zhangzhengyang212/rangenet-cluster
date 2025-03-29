@@ -1,0 +1,8 @@
+[33m[1mCMake Warning[0m at /home/s123/temp/rangenet_pp/src/rangenet_pp/cmake/Color.cmake:24 (message):
+  [34m[WARNING] Current CUDA does not support 89, please use CUDA 11.8+, we
+  will use 52 instead.[m
+[36mCall Stack (most recent call first):[0m
+  cmake/Compiler.cmake:39 (WARNING_LOG)
+  CMakeLists.txt:12 (include)
+
+

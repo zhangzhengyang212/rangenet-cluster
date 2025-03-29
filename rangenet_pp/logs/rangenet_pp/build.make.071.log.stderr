@@ -1,0 +1,23 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:4:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[KBoundingBoxGenerator::BoundingBoxGenerator(float, int, int)[m[K’
+    4 | [01;31m[KBoundingBoxGenerator[m[K::BoundingBoxGenerator(float cluster_tolerance, int min_cluster_size, int max_cluster_size)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:15:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[KBoundingBoxGenerator::BoundingBoxGenerator(BoundingBoxGenerator&&)[m[K’
+   15 | class [01;36m[KBoundingBoxGenerator[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:15:7:[m[K [01;36m[Knote: [m[K                ‘[01m[KBoundingBoxGenerator::BoundingBoxGenerator(const BoundingBoxGenerator&)[m[K’
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:17:3:[m[K [01;36m[Knote: [m[K                ‘[01m[KBoundingBoxGenerator::BoundingBoxGenerator(double, int, int)[m[K’
+   17 |   [01;36m[KBoundingBoxGenerator[m[K(double cluster_tolerance = 0.5,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:15:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass BoundingBoxGenerator[m[K’ defined here
+   15 | class [01;36m[KBoundingBoxGenerator[m[K {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

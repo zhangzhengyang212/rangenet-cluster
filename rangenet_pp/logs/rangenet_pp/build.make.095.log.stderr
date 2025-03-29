@@ -1,0 +1,21 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:17:10:[m[K [01;31m[Kfatal error: [m[Kutils/pointcloud_io.h: 没有那个文件或目录
+   17 | #include [01;31m[K"utils/pointcloud_io.h"[m[K  // 包含 PointType 定义
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:10[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/bounding_box.hpp:17:10:[m[K [01;31m[Kfatal error: [m[Kutils/pointcloud_io.h: 没有那个文件或目录
+   17 | #include [01;31m[K"utils/pointcloud_io.h"[m[K  // 包含 PointType 定义
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:82：CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make: *** [Makefile:160：all] 错误 2

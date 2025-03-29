@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:165 (add_executable):
+  add_executable cannot create target "ros1_demo" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "/home/zzy/rangenet_pp/src/rangenet_pp".  See
+  documentation for policy CMP0002 for more details.
+
+

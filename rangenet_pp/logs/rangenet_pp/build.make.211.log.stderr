@@ -1,0 +1,114 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:7[m[K:
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  384 |   [01;31m[Kdo[m[K \
+      |   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  384 |   [01;36m[Kdo[m[K \
+      |   [01;36m[K^~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1284:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1284 |     [01;36m[KROS_INFO[m[K("请在RViz中添加PointCloud2显示，订阅话题: /vehicle_completion/point_cloud");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  392 |   } [01;36m[Kwhile[m[K(false)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1284:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1284 |     [01;36m[KROS_INFO[m[K("请在RViz中添加PointCloud2显示，订阅话题: /vehicle_completion/point_cloud");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  384 |   [01;31m[Kdo[m[K \
+      |   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  384 |   [01;36m[Kdo[m[K \
+      |   [01;36m[K^~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1285:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1285 |     [01;36m[KROS_INFO[m[K("-------------------------");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  392 |   } [01;36m[Kwhile[m[K(false)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1285:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1285 |     [01;36m[KROS_INFO[m[K("-------------------------");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1286:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ 1286 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:7[m[K:
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  384 |   [01;31m[Kdo[m[K \
+      |   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  384 |   [01;36m[Kdo[m[K \
+      |   [01;36m[K^~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1287:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1287 |     [01;36m[KROS_INFO[m[K("请在RViz中添加PointCloud2显示，订阅话题: /vehicle_completion/point_cloud");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  392 |   } [01;36m[Kwhile[m[K(false)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1287:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1287 |     [01;36m[KROS_INFO[m[K("请在RViz中添加PointCloud2显示，订阅话题: /vehicle_completion/point_cloud");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  384 |   [01;31m[Kdo[m[K \
+      |   [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:384:3:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  384 |   [01;36m[Kdo[m[K \
+      |   [01;36m[K^~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1288:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1288 |     [01;36m[KROS_INFO[m[K("-------------------------");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  392 |   } [01;31m[Kwhile[m[K(false)
+      |     [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:392:5:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_LOG_COND[m[K’
+  392 |   } [01;36m[Kwhile[m[K(false)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1288:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+ 1288 |     [01;36m[KROS_INFO[m[K("-------------------------");
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1289:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ 1289 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

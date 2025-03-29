@@ -1,0 +1,16 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In constructor ‘[01m[KBoundingBoxGenerator::BoundingBoxGenerator(double, int, int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:24:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_box_pub_[m[K’ was not declared in this scope
+   24 | [01;31m[Kvehicle_box_pub_[m[K = nh.advertise<visualization_msgs::MarkerArray>("vehicle_boxes", 1);
+      | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:25:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpedestrian_box_pub_[m[K’ was not declared in this scope
+   25 | [01;31m[Kpedestrian_box_pub_[m[K = nh.advertise<visualization_msgs::MarkerArray>("pedestrian_boxes", 1);
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

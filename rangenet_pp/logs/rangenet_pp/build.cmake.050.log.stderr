@@ -1,0 +1,16 @@
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "pcl_ros" with any
+  of the following names:
+
+    pcl_rosConfig.cmake
+    pcl_ros-config.cmake
+
+  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set
+  "pcl_ros_DIR" to a directory containing one of the above files.  If
+  "pcl_ros" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  cmake/ROS.cmake:6 (find_package)
+  CMakeLists.txt:15 (include)
+
+

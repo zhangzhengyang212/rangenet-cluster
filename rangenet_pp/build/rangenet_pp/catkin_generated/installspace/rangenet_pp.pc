@@ -1,0 +1,8 @@
+prefix=/home/zzy/rangenet_pp/install
+
+Name: rangenet_pp
+Description: Description of rangenet_pp
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

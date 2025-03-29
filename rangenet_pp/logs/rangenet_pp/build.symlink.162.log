@@ -1,0 +1,9 @@
+Symlinking /home/zzy/rangenet_pp/devel/share/rangenet_pp/cmake/rangenet_ppConfig-version.cmake
+Symlinking /home/zzy/rangenet_pp/devel/share/rangenet_pp/cmake/rangenet_ppConfig.cmake
+Symlinking /home/zzy/rangenet_pp/devel/lib/libpointcloud_io.so
+Symlinking /home/zzy/rangenet_pp/devel/lib/libproject_ops.so
+Symlinking /home/zzy/rangenet_pp/devel/lib/librangenet_lib.so
+Symlinking /home/zzy/rangenet_pp/devel/lib/libpostprocess.so
+Symlinking /home/zzy/rangenet_pp/devel/lib/rangenet_pp/demo
+Symlinking /home/zzy/rangenet_pp/devel/lib/rangenet_pp/ros1_demo
+Symlinking /home/zzy/rangenet_pp/devel/lib/pkgconfig/rangenet_pp.pc

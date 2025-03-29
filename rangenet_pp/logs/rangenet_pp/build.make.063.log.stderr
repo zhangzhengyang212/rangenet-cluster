@@ -1,0 +1,19 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kyour_package/bounding_box.hpp: 没有那个文件或目录
+    1 | #include [01;31m[K"your_package/bounding_box.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krangenet_pp/bounding_box.hpp: 没有那个文件或目录
+   10 | #include [01;31m[K"rangenet_pp/bounding_box.hpp"[m[K  // 添加边界框头文件
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:82：CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make: *** [Makefile:160：all] 错误 2

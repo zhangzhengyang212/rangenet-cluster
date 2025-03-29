@@ -1,0 +1,36 @@
+[35m[1mScanning dependencies of target project_ops[0m
+[35m[1mScanning dependencies of target postprocess[0m
+[35m[1mScanning dependencies of target pointcloud_io[0m
+[  6%] [32mBuilding CXX object CMakeFiles/pointcloud_io.dir/src/utils/pointcloud_io.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/postprocess.dir/src/utils/postprocess.cpp.o[0m
+[ 20%] [32mBuilding CUDA object CMakeFiles/project_ops.dir/src/ops/project_kernel.cu.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/project_ops.dir/src/ops/project.cpp.o[0m
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[ 33%] [32m[1mLinking CXX shared library /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libpointcloud_io.so[0m
+[ 33%] Built target pointcloud_io
+[ 40%] [32m[1mLinking CXX shared library /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libproject_ops.so[0m
+[ 40%] Built target project_ops
+[35m[1mScanning dependencies of target rangenet_lib[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/network/net.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rangenet_lib.dir/src/network/netTensorRT.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/libpostprocess.so[0m
+[ 60%] Built target postprocess
+[ 66%] [32m[1mLinking CXX shared library /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so[0m
+[ 66%] Built target rangenet_lib
+[35m[1mScanning dependencies of target demo[0m
+[35m[1mScanning dependencies of target ros1_demo[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/demo[0m
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+[ 93%] Built target demo
+[100%] [32m[1mLinking CXX executable /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/ros1_demo[0m
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_segmentation.so.1.14, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_segmentation.so.1.10
+/usr/bin/ld: warning: libpcl_common.so.1.14, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_common.so.1.10
+/usr/bin/ld: warning: libpcl_search.so.1.14, needed by /usr/local/lib/libpcl_segmentation.so, may conflict with libpcl_search.so.1.10
+[100%] Built target ros1_demo

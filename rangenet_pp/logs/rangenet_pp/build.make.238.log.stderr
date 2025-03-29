@@ -1,0 +1,335 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.hpp:2:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ does not name a type
+    2 | [01;31m[Kvisualization_msgs[m[K::MarkerArray generateBoundingBoxes(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.hpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ does not name a type
+   12 | [01;31m[Kvisualization_msgs[m[K::MarkerArray generateOrientedBoundingBoxes(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:10[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.hpp:2:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ does not name a type
+    2 | [01;31m[Kvisualization_msgs[m[K::MarkerArray generateBoundingBoxes(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.hpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ does not name a type
+   12 | [01;31m[Kvisualization_msgs[m[K::MarkerArray generateOrientedBoundingBoxes(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:24:19:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ was not declared in this scope
+   24 |   std::unique_ptr<[01;31m[KBoundingBoxGenerator[m[K> bbox_generator_;
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:24:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   24 |   std::unique_ptr<BoundingBoxGenerator[01;31m[K>[m[K bbox_generator_;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:24:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:[m[K In constructor ‘[01m[KROS_DEMO::ROS_DEMO(ros::NodeHandle*)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:37:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kvisualization_msgs[m[K’ was not declared in this scope
+   37 |   vehicle_box_pub_ = pnh_->advertise<[01;31m[Kvisualization_msgs[m[K::MarkerArray>("/vehicle_boxes", 1);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:37:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   37 |   vehicle_box_pub_ = pnh_->[01;31m[Kadvertise<visualization_msgs::MarkerArray>[m[K("/vehicle_boxes", 1);
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:37:90:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [15], int)[m[K’
+   37 |   vehicle_box_pub_ = pnh_->advertise<visualization_msgs::MarkerArray>("/vehicle_boxes", 1[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  247 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:37:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   vehicle_box_pub_ = pnh_->advertise<visualization_msgs::MarkerArray>("/vehicle_boxes", 1[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  313 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:37:90:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |   vehicle_box_pub_ = pnh_->advertise<visualization_msgs::MarkerArray>("/vehicle_boxes", 1[01;31m[K)[m[K;
+      |                                                                                          [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:38:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   38 |   pedestrian_box_pub_ = pnh_->[01;31m[Kadvertise<visualization_msgs::MarkerArray>[m[K("/pedestrian_boxes", 1);
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:38:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<visualization_msgs>(const char [18], int)[m[K’
+   38 |   pedestrian_box_pub_ = pnh_->advertise<visualization_msgs::MarkerArray>("/pedestrian_boxes", 1[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  247 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:3[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  313 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:44:38:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ was not declared in this scope
+   44 |   bbox_generator_ = std::make_unique<[01;31m[KBoundingBoxGenerator[m[K>(0.5, 50, 25000);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:44:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(double, int, int)[m[K’
+   44 |   bbox_generator_ = std::make_unique<BoundingBoxGenerator>(0.5, 50, 25000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/parser.h:11[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/yaml.h:10[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/net.hpp:15[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/netTensorRT.hpp:9[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+  856 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:856:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:44:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |   bbox_generator_ = std::make_unique<BoundingBoxGenerator>(0.5, 50, 25000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/parser.h:11[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/yaml.h:10[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/net.hpp:15[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/netTensorRT.hpp:9[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+  862 |     [01;36m[Kmake_unique[m[K(size_t __num)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:862:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:44:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |   bbox_generator_ = std::make_unique<BoundingBoxGenerator>(0.5, 50, 25000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/parser.h:11[m[K,
+                 from [01m[K/usr/local/include/yaml-cpp/yaml.h:10[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/net.hpp:15[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/include/netTensorRT.hpp:9[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ <deleted>
+  868 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:868:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:44:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   44 |   bbox_generator_ = std::make_unique<BoundingBoxGenerator>(0.5, 50, 25000[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ does not name a type
+   13 | [01;31m[KBoundingBoxGenerator[m[K::BoundingBoxGenerator(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:26:40:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+   26 | pcl::PointCloud<pcl::PointXYZRGB>::Ptr [01;31m[KBoundingBoxGenerator[m[K::processBoundingBoxes(
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:27:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+   27 |   const pcl::PointCloud<[01;31m[KPointType[m[K>& input_cloud,
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:27:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   27 |   const pcl::PointCloud<PointType[01;31m[K>[m[K& input_cloud,
+      |                                  [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kpcl::PointCloud<pcl::PointXYZRGB>::Ptr processBoundingBoxes(const int&, const int*)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:38:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   38 | result_cloud->points.resize(input_cloud.[01;31m[Kpoints[m[K.size());
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:39:35:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kwidth[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   39 | result_cloud->width = input_cloud.[01;31m[Kwidth[m[K;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:40:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kheight[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   40 | result_cloud->height = input_cloud.[01;31m[Kheight[m[K;
+      |                                    [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:7[m[K:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:42:47:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   42 | ROS_INFO("Processing %zu points", input_cloud.[01;31m[Kpoints[m[K.size());
+      |                                               [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:42:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   42 | [01;36m[KROS_INFO[m[K("Processing %zu points", input_cloud.points.size());
+      | [01;36m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:[m[K In member function ‘[01m[Kvoid ROS_DEMO::pointcloudCallback(const ConstPtr&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:67:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   67 |     bbox_generator_[01;31m[K->[m[KprocessBoundingBoxes(*pc_ros, labels.get());
+      |                    [01;31m[K^~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:46:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   46 | for (size_t i = 0; i < input_cloud.[01;31m[Kpoints[m[K.size(); ++i) {
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:81:36:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   81 | for (size_t i = 0; i < input_cloud.[01;31m[Kpoints[m[K.size(); ++i) {
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:83:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpoints[m[K’ in ‘[01m[Kinput_cloud[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   83 |   const auto& input_point = input_cloud.[01;31m[Kpoints[m[K[i];
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:121:1:[m[K [01;31m[Kerror: [m[K‘[01m[KpublishBoundingBoxes[m[K’ was not declared in this scope; did you mean ‘[01m[KprocessBoundingBoxes[m[K’?
+  121 | [01;31m[KpublishBoundingBoxes[m[K(result_cloud, labels, "velodyne");
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KprocessBoundingBoxes[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:126:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  126 | void [01;31m[KBoundingBoxGenerator[m[K::publishBoundingBoxes(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kvoid publishBoundingBoxes(const Ptr&, const int*, const string&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:231:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_cluster_tolerance_[m[K’ was not declared in this scope
+  231 |   vehicle_clusters = performClustering(cloud, vehicle_indices, [01;31m[Kvehicle_cluster_tolerance_[m[K);
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:231:22:[m[K [01;31m[Kerror: [m[K‘[01m[KperformClustering[m[K’ was not declared in this scope
+  231 |   vehicle_clusters = [01;31m[KperformClustering[m[K(cloud, vehicle_indices, vehicle_cluster_tolerance_);
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:236:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kpedestrian_cluster_tolerance_[m[K’ was not declared in this scope
+  236 |   pedestrian_clusters = performClustering(cloud, pedestrian_indices, [01;31m[Kpedestrian_cluster_tolerance_[m[K);
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:236:25:[m[K [01;31m[Kerror: [m[K‘[01m[KperformClustering[m[K’ was not declared in this scope
+  236 |   pedestrian_clusters = [01;31m[KperformClustering[m[K(cloud, pedestrian_indices, pedestrian_cluster_tolerance_);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:273:21:[m[K [01;31m[Kerror: [m[K‘[01m[KisLidarTurning[m[K’ was not declared in this scope
+  273 |   bool is_turning = [01;31m[KisLidarTurning[m[K(cloud, vehicle_indices);
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:278:51:[m[K [01;31m[Kerror: [m[K‘[01m[KgenerateOrientedBoundingBoxes[m[K’ was not declared in this scope
+  278 |     visualization_msgs::MarkerArray obb_markers = [01;31m[KgenerateOrientedBoundingBoxes[m[K(cloud, vehicle_clusters, frame_id, "vehicle", 1);
+      |                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:283:52:[m[K [01;31m[Kerror: [m[K‘[01m[KgenerateBoundingBoxes[m[K’ was not declared in this scope
+  283 |     visualization_msgs::MarkerArray aabb_markers = [01;31m[KgenerateBoundingBoxes[m[K(cloud, vehicle_clusters, frame_id, "vehicle", 1);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:291:49:[m[K [01;31m[Kerror: [m[K‘[01m[KgenerateBoundingBoxes[m[K’ was not declared in this scope
+  291 |   visualization_msgs::MarkerArray ped_markers = [01;31m[KgenerateBoundingBoxes[m[K(cloud, pedestrian_clusters, frame_id, "pedestrian", 2);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:315:32:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  315 | std::vector<pcl::PointIndices> [01;31m[KBoundingBoxGenerator[m[K::performClustering(
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:344:33:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  344 | visualization_msgs::MarkerArray [01;31m[KBoundingBoxGenerator[m[K::generateOrientedBoundingBoxes(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kvisualization_msgs::MarkerArray generateOrientedBoundingBoxes(const Ptr&, const std::vector<pcl::PointIndices>&, const string&, const string&, int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:545:11:[m[K [01;31m[Kerror: [m[K‘[01m[KcompleteVehiclePointCloud[m[K’ was not declared in this scope
+  545 |           [01;31m[KcompleteVehiclePointCloud[m[K(cluster_cloud, dimensions, rotation_matrix);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:549:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_frame_cloud[m[K’ was not declared in this scope
+  549 |         [01;31m[Kcurrent_frame_cloud[m[K->points.push_back(point);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:667:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  667 | pcl::PointCloud<[01;31m[KPointType[m[K>::Ptr BoundingBoxGenerator::extractLabeledPointCloud(
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:667:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  667 | pcl::PointCloud<PointType[01;31m[K>[m[K::Ptr BoundingBoxGenerator::extractLabeledPointCloud(
+      |                          [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:667:33:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KBoundingBoxGenerator[m[K’
+  667 | pcl::PointCloud<PointType>::Ptr [01;31m[KBoundingBoxGenerator[m[K::extractLabeledPointCloud(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:688:32:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  688 | std::vector<pcl::PointIndices> [01;31m[KBoundingBoxGenerator[m[K::euclideanClustering(
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:689:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  689 |   const pcl::PointCloud<[01;31m[KPointType[m[K>::Ptr& cloud,
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:689:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  689 |   const pcl::PointCloud<PointType[01;31m[K>[m[K::Ptr& cloud,
+      |                                  [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:689:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+  689 |   const pcl::PointCloud<PointType>::Ptr[01;31m[K&[m[K cloud,
+      |                                        [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kstd::vector<pcl::PointIndices> euclideanClustering(int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:695:21:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  695 | pcl::search::KdTree<[01;31m[KPointType[m[K>::Ptr tree(new pcl::search::KdTree<PointType>);
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:695:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  695 | pcl::search::KdTree<PointType[01;31m[K>[m[K::Ptr tree(new pcl::search::KdTree<PointType>);
+      |                              [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:695:30:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:695:37:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ktree[m[K’
+  695 | pcl::search::KdTree<PointType>::Ptr [01;31m[Ktree[m[K(new pcl::search::KdTree<PointType>);
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:696:1:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree[m[K’ was not declared in this scope; did you mean ‘[01m[Ktee[m[K’?
+  696 | [01;31m[Ktree[m[K->setInputCloud(cloud);
+      | [01;31m[K^~~~[m[K
+      | [32m[Ktee[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:696:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud[m[K’ was not declared in this scope
+  696 | tree->setInputCloud([01;31m[Kcloud[m[K);
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:700:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetClusterTolerance[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  700 | ec.[01;31m[KsetClusterTolerance[m[K(tolerance);
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:700:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktolerance[m[K’ was not declared in this scope
+  700 | ec.setClusterTolerance([01;31m[Ktolerance[m[K);
+      |                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:701:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetMinClusterSize[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  701 | ec.[01;31m[KsetMinClusterSize[m[K(min_size);
+      |    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:701:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_size[m[K’ was not declared in this scope
+  701 | ec.setMinClusterSize([01;31m[Kmin_size[m[K);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:702:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetMaxClusterSize[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  702 | ec.[01;31m[KsetMaxClusterSize[m[K(max_size);
+      |    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:702:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_size[m[K’ was not declared in this scope
+  702 | ec.setMaxClusterSize([01;31m[Kmax_size[m[K);
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:703:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetSearchMethod[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  703 | ec.[01;31m[KsetSearchMethod[m[K(tree);
+      |    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:704:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KsetInputCloud[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  704 | ec.[01;31m[KsetInputCloud[m[K(cloud);
+      |    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:708:4:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kextract[m[K’ in ‘[01m[Kec[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  708 | ec.[01;31m[Kextract[m[K(cluster_indices);
+      |    [01;31m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:713:33:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  713 | visualization_msgs::MarkerArray [01;31m[KBoundingBoxGenerator[m[K::generateBoundingBoxes(
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kvisualization_msgs::MarkerArray generateBoundingBoxes(const Ptr&, const std::vector<pcl::PointIndices>&, const string&, const string&, int)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:774:11:[m[K [01;31m[Kerror: [m[K‘[01m[KcompleteVehiclePointCloud[m[K’ was not declared in this scope
+  774 |           [01;31m[KcompleteVehiclePointCloud[m[K(cluster_cloud, dimensions, rotation_matrix);
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:778:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_frame_cloud[m[K’ was not declared in this scope
+  778 |         [01;31m[Kcurrent_frame_cloud[m[K->points.push_back(point);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:859:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  859 | void [01;31m[KBoundingBoxGenerator[m[K::addBoundingBox(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:861:25:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  861 |   const pcl::PointCloud<[01;31m[KPointType[m[K>& cluster_cloud,
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:861:34:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  861 |   const pcl::PointCloud<PointType[01;31m[K>[m[K& cluster_cloud,
+      |                                  [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In function ‘[01m[Kvoid addBoundingBox(pcl::PointCloud<pcl::PointXYZRGB>&, const int&, const std::array<float, 3>&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:865:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPointType[m[K’ was not declared in this scope
+  865 | [01;31m[KPointType[m[K min_pt, max_pt;
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:866:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmin_pt[m[K’ was not declared in this scope
+  866 | pcl::getMinMax3D(cluster_cloud, [01;31m[Kmin_pt[m[K, max_pt);
+      |                                 [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:866:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmax_pt[m[K’ was not declared in this scope
+  866 | pcl::getMinMax3D(cluster_cloud, min_pt, [01;31m[Kmax_pt[m[K);
+      |                                         [01;31m[K^~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:881:1:[m[K [01;31m[Kerror: [m[K‘[01m[KaddLine[m[K’ was not declared in this scope
+  881 | [01;31m[KaddLine[m[K(output_cloud, vertices[0], vertices[1], color);
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K At global scope:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:900:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  900 | void [01;31m[KBoundingBoxGenerator[m[K::addLine(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:927:6:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+  927 | bool [01;31m[KBoundingBoxGenerator[m[K::isLidarTurning(const pcl::PointCloud<pcl::PointXYZRGB>::Ptr& cloud,
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1048:40:[m[K [01;31m[Kerror: [m[K‘[01m[KBoundingBoxGenerator[m[K’ has not been declared
+ 1048 | pcl::PointCloud<pcl::PointXYZRGB>::Ptr [01;31m[KBoundingBoxGenerator[m[K::completeVehiclePointCloud(
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:82：CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

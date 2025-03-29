@@ -1,0 +1,46 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:[m[K In member function ‘[01m[Kvoid BoundingBoxGenerator::publishCompletedVehicleCloud(const Ptr&, const string&)[m[K’:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1084:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+ 1084 |     static ros::Publisher cloud_pub = nh.advertise<[01;31m[Ksensor_msgs[m[K::PointCloud2>("completed_vehicle_cloud", 1);
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1084:42:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+ 1084 |     static ros::Publisher cloud_pub = nh.[01;31m[Kadvertise<sensor_msgs::PointCloud2>[m[K("completed_vehicle_cloud", 1);
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1084:106:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [24], int)[m[K’
+ 1084 |     static ros::Publisher cloud_pub = nh.advertise<sensor_msgs::PointCloud2>("completed_vehicle_cloud", 1[01;31m[K)[m[K;
+      |                                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:7[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  247 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:247:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1084:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1084 |     static ros::Publisher cloud_pub = nh.advertise<sensor_msgs::PointCloud2>("completed_vehicle_cloud", 1[01;31m[K)[m[K;
+      |                                                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:7[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  313 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:313:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1084:106:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+ 1084 |     static ros::Publisher cloud_pub = nh.advertise<sensor_msgs::PointCloud2>("completed_vehicle_cloud", 1[01;31m[K)[m[K;
+      |                                                                                                          [01;31m[K^[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1087:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ is not a class, namespace, or enumeration
+ 1087 |     [01;31m[Ksensor_msgs[m[K::PointCloud2 cloud_msg;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1088:10:[m[K [01;31m[Kerror: [m[K‘[01m[KtoROSMsg[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+ 1088 |     pcl::[01;31m[KtoROSMsg[m[K(*completed_cloud, cloud_msg);
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/bounding_box.cpp:1088:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_pub[m[K’?
+ 1088 |     pcl::toROSMsg(*completed_cloud, [01;31m[Kcloud_msg[m[K);
+      |                                     [01;31m[K^~~~~~~~~[m[K
+      |                                     [32m[Kcloud_pub[m[K
+/usr/bin/ld: warning: libpcl_visualization.so.1.10, needed by /home/zzy/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so, may conflict with libpcl_visualization.so.1.14
+/usr/bin/ld: warning: libpcl_io.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_io.so.1.14
+/usr/bin/ld: warning: libpcl_common.so.1.10, needed by /usr/lib/x86_64-linux-gnu/libpcl_visualization.so, may conflict with libpcl_common.so.1.14
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:95：CMakeFiles/ros1_demo.dir/src/bounding_box.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

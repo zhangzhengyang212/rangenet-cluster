@@ -1,0 +1,12 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+/usr/bin/ld: /home/zzy/桌面/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so: undefined reference to `pcl::visualization::PCLVisualizer::createActorFromVTKDataSet(vtkSmartPointer<vtkDataSet> const&, vtkSmartPointer<vtkLODActor>&, bool) const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/demo.dir/build.make:231：/home/zzy/桌面/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/demo] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：CMakeFiles/demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+/usr/bin/ld: /home/zzy/桌面/rangenet_pp/devel/.private/rangenet_pp/lib/librangenet_lib.so: undefined reference to `pcl::visualization::PCLVisualizer::createActorFromVTKDataSet(vtkSmartPointer<vtkDataSet> const&, vtkSmartPointer<vtkLODActor>&, bool) const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:347：/home/zzy/桌面/rangenet_pp/devel/.private/rangenet_pp/lib/rangenet_pp/ros1_demo] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

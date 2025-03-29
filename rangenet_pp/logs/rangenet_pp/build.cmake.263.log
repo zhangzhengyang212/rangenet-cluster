@@ -1,0 +1,227 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m The CUDA compiler identification is NVIDIA 11.6.55
+[36m--[0m Detecting CUDA compiler ABI info
+[36m--[0m Detecting CUDA compiler ABI info - done
+[36m--[0m Check for working CUDA compiler: /usr/local/cuda-11.6/bin/nvcc - skipped
+[36m--[0m Detecting CUDA compile features
+[36m--[0m Detecting CUDA compile features - done
+[36m--[0m [32m[INFO] CMAKE_BUILD_TYPE：[m
+[36m--[0m [32m[INFO] Compute capability: 61[m
+[36m--[0m [32m[INFO] ROS1 is available![m
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/zzy/rangenet_pp/devel/.private/rangenet_pp
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/zzy/rangenet_pp/devel;/home/zzy/ws_livox/devel;/opt/ros/noetic;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT;/usr/local/cuda-11.6/targets/x86_64-linux/lib/cmake/TensorRT
+[36m--[0m This workspace overlays: /home/zzy/rangenet_pp/devel;/home/zzy/ws_livox/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Found PY_em: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/zzy/rangenet_pp/build/rangenet_pp/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Found Threads: TRUE
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Found CUDA: /usr/local/cuda-11.6 (found version "11.6")
+[36m--[0m Caffe2: CUDA detected: 11.6
+[36m--[0m Caffe2: CUDA nvcc is: /usr/local/cuda-11.6/bin/nvcc
+[36m--[0m Caffe2: CUDA toolkit directory: /usr/local/cuda-11.6
+[36m--[0m Caffe2: Header version is: 11.6
+[36m--[0m Found CUDNN: /usr/local/cuda-11.6/lib64/libcudnn.so
+[36m--[0m Found cuDNN: v8.4.1  (include: /usr/local/cuda-11.6/include, library: /usr/local/cuda-11.6/lib64/libcudnn.so)
+[36m--[0m /usr/local/cuda-11.6/lib64/libnvrtc.so shorthash is 280a23f6
+[36m--[0m Autodetected CUDA architecture(s):  6.1
+[36m--[0m Added CUDA NVCC flags for: -gencode;arch=compute_61,code=sm_61
+[36m--[0m Found Torch: /usr/lib/libtorch.so
+[36m--[0m Found Boost: /usr/local/lib/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem
+[36m--[0m [32m[INFO] Using Custom PCL_DIR：/usr/local/share/pcl-1.13[m
+[36m--[0m Checking for module 'flann'
+[36m--[0m   Found flann, version 1.9.1
+[36m--[0m Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[36m--[0m FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[36m--[0m Found OpenMP_CXX: -fopenmp (found version "4.5")
+[36m--[0m Found OpenMP: TRUE (found version "4.5") found components: CXX
+[36m--[0m The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+[36m--[0m Checking for module 'libusb-1.0'
+[36m--[0m   Found libusb-1.0, version 1.0.23
+[36m--[0m Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[36m--[0m OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[36m--[0m OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[36m--[0m Found Pcap: /usr/lib/x86_64-linux-gnu/libpcap.so
+[36m--[0m Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[36m--[0m Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[36m--[0m OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[36m--[0m OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so;libusb::libusb)
+[36m--[0m Found Qhull: /usr/lib/x86_64-linux-gnu/libqhull_r.so
+[36m--[0m QHULL found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[36m--[0m Found PCL_COMMON: /usr/local/lib/libpcl_common.so
+[36m--[0m Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so
+[36m--[0m Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so
+[36m--[0m Found PCL_SEARCH: /usr/local/lib/libpcl_search.so
+[36m--[0m Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so
+[36m--[0m Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so
+[36m--[0m Found PCL_2D: /usr/local/include/pcl-1.14
+[36m--[0m Found PCL_GEOMETRY: /usr/local/include/pcl-1.14
+[36m--[0m Found PCL_IO: /usr/local/lib/libpcl_io.so
+[36m--[0m Found PCL_FEATURES: /usr/local/lib/libpcl_features.so
+[36m--[0m Found PCL_ML: /usr/local/lib/libpcl_ml.so
+[36m--[0m Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so
+[36m--[0m Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so
+[36m--[0m Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so
+[36m--[0m Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so
+[36m--[0m Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so
+[36m--[0m Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so
+[36m--[0m Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so
+[36m--[0m Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so
+[36m--[0m Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so
+[36m--[0m Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so
+[36m--[0m [32m[INFO] PCL_VERSION is 1.14.0[m
+[36m--[0m Found CUDAToolkit: /usr/local/cuda-11.6/include (found version "11.6.55")
+[36m--[0m [32m[INFO] CUDA is available![m
+[36m--[0m [32m[INFO] CUDA Library Directory: /usr/local/cuda-11.6/lib64[m
+[36m--[0m [32m[INFO] CUDA Headers: /usr/local/cuda-11.6/include[m
+[36m--[0m [32m[INFO] CUDNN is available![m
+[36m--[0m [32m[INFO] CUDNN_LIBRARY: /usr/local/cuda-11.6/lib64/libcudnn.so[m
+[36m--[0m [32m[INFO] TensorRT is not installed through DEB package, should specify the environment parameter TENSORRT_DIR explicitly[m
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/cmake/Color.cmake:24 (message):
+  [34m[WARNING] NvInferVersion.h not found in [m
+[36mCall Stack (most recent call first):[0m
+  cmake/TensorRT.cmake:74 (WARNING_LOG)
+  cmake/ThirdParty.cmake:32 (include)
+  CMakeLists.txt:18 (include)
+
+
+[36m--[0m [32m[INFO] NVINFER: /lib/libnvinfer.so[m
+[36m--[0m [32m[INFO] NVINFER_PLUGIN: /lib/libnvinfer_plugin.so[m
+[36m--[0m [32m[INFO] NVONNX_PARSER: /lib/libnvonnxparser.so[m
+[36m--[0m [32m[INFO] TensorRT is available![m
+[36m--[0m Configuring done
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:70 (add_executable):
+  Cannot generate a safe runtime search path for target demo because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:92 (add_executable):
+  Cannot generate a safe runtime search path for target ros1_demo because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_thread.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_program_options.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:55 (add_library):
+  Cannot generate a safe runtime search path for target rangenet_lib because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/zzy/rangenet_pp/build/rangenet_pp

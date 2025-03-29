@@ -1,0 +1,82 @@
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/cmake/Color.cmake:24 (message):
+  [34m[WARNING] NvInferVersion.h not found in [m
+[36mCall Stack (most recent call first):[0m
+  cmake/TensorRT.cmake:74 (WARNING_LOG)
+  cmake/ThirdParty.cmake:32 (include)
+  CMakeLists.txt:18 (include)
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:70 (add_executable):
+  Cannot generate a safe runtime search path for target demo because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:92 (add_executable):
+  Cannot generate a safe runtime search path for target ros1_demo because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libboost_thread.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_atomic.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_iostreams.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_program_options.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_chrono.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_filesystem.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_regex.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_date_time.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_system.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libboost_thread.so.1.71.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /usr/local/lib
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+
+[33m[1mCMake Warning[0m at /home/zzy/rangenet_pp/src/rangenet_pp/CMakeLists.txt:55 (add_library):
+  Cannot generate a safe runtime search path for target rangenet_lib because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libnvinfer.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvinfer_plugin.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+    runtime library [libnvonnxparser.so.8] in /lib may be hidden by files in:
+      /usr/local/cuda-11.6/lib64
+
+  Some of these libraries may not be found correctly.
+
+

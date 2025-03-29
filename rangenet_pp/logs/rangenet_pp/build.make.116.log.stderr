@@ -1,0 +1,26 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+sh: 0: getcwd() failed: No such file or directory
+Assembler messages:
+致命错误： can't create CMakeFiles/project_ops.dir/src/ops/project.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/project_ops.dir/build.make:95：CMakeFiles/project_ops.dir/src/ops/project.cpp.o] 错误 1
+make[2]: *** 正在等待未完成的任务....
+sh: 0: getcwd() failed: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+Assembler messages:
+致命错误： can't create CMakeFiles/pointcloud_io.dir/src/utils/pointcloud_io.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/pointcloud_io.dir/build.make:82：CMakeFiles/pointcloud_io.dir/src/utils/pointcloud_io.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:331：CMakeFiles/pointcloud_io.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+sh: 0: getcwd() failed: No such file or directory
+sh: 0: getcwd() failed: No such file or directory
+Assembler messages:
+致命错误： can't create CMakeFiles/project_ops.dir/src/ops/project_kernel.cu.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/project_ops.dir/build.make:82：CMakeFiles/project_ops.dir/src/ops/project_kernel.cu.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:304：CMakeFiles/project_ops.dir/all] 错误 2
+Assembler messages:
+致命错误： can't create CMakeFiles/postprocess.dir/src/utils/postprocess.cpp.o: 没有那个文件或目录
+make[2]: *** [CMakeFiles/postprocess.dir/build.make:82：CMakeFiles/postprocess.dir/src/utils/postprocess.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/postprocess.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2

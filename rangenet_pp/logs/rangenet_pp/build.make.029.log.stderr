@@ -1,0 +1,14 @@
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K<command-line>:[m[K [01;35m[Kwarning: [m[KISO C++11 requires whitespace after the macro name
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/demo.cpp:7:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    7 | #ifndef PCL_NO_PRECOMPILE
+      | 
+[01m[K/home/zzy/rangenet_pp/src/rangenet_pp/src/ros1_demo.cpp:8:[m[K [01;31m[Kerror: [m[Kunterminated #ifndef
+    8 | #ifndef PCL_NO_PRECOMPILE
+      | 
+make[2]: *** [CMakeFiles/demo.dir/build.make:82：CMakeFiles/demo.dir/src/demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:250：CMakeFiles/demo.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/ros1_demo.dir/build.make:82：CMakeFiles/ros1_demo.dir/src/ros1_demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/ros1_demo.dir/all] 错误 2
+make: *** [Makefile:160：all] 错误 2
