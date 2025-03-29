@@ -44,3 +44,5 @@ source devel/setup.bash
 roslaunch rangenet_pp ros1_rangenet.launch 
 source ~/rangenet_pp/devel/setup.bash  
 roslaunch rangenet_pp ros1_bag.launch  
+```
+rviz中，MakerArray/vehicle_boxes话题为车辆边界框，MakerArray//pedestrian_boxes为行人边界框，PointCloud2 /vehicle_completion/point_cloud为车辆补全点云
