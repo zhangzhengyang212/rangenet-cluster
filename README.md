@@ -7,7 +7,7 @@
 
 2.搭建深度学习环境,安装 nvidia-driver, CUDA, TensorRT, cuDNN
 
-本机配置：ubuntu20.04+navida-driver535.183.01+CUDA11.6+TensorRT8.4.1.5+opencv3.4.5+cudnn8.4.1.50  
+本机配置：ubuntu20.04 + navida-driver535.183.01 + CUDA11.6 + TensorRT8.4.1.5 + opencv3.4.5 + cudnn8.4.1.50  
 
 3.安装 apt 和 Python 包  
 ```
